@@ -1,0 +1,16 @@
+2020-*
+webapp/deno
+webapp/nodejs
+webapp/perl
+webapp/php
+webapp/python
+webapp/rust
+webapp/ruby
+
+ruby/
+js/
+common/
+public/
+apitest/
+python/public
+revocated_token.list
