@@ -1270,7 +1270,7 @@ func main() {
 	e.Static("/", "public")
 
 	// nginx用に6000に飛ばす
-	if err := http.ListenAndServe(":6000", e); err != nil {
+	if err := http.ListenAndServe(":5000", e); err != nil {
 		log.Fatal(err)
 	}
 }
